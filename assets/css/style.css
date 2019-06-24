@@ -1,9 +1,10 @@
 body {
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: #999;
+    background: url('/assets/images/fabric-texture-with-gray-and-white-swirl-pattern.jpg') repeat 0 0;;
+    /* background-color: white; */
   }
   
   * {
@@ -33,9 +34,9 @@ body {
   h1,
   h2,
   h3 {
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
-    color: teal;
+    color: gray;
   }
   
   h1 {
@@ -58,8 +59,8 @@ body {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #ffffff;
-    background: teal;
+    color: darkgray;
+    background:white;
     border-bottom: 2px solid #cccccc;
   }
   
@@ -67,11 +68,10 @@ body {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: serif;
-    font-size: 42px;
-    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
     line-height: 90px;
-    color: #ffffff;
+    color: gray;
     text-align: center;
     text-decoration: none;
     background: none;
@@ -87,7 +87,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: white;
+    color: gray;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -102,11 +102,10 @@ body {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
+    color: gray;
     text-align: center;
     background: #666666;
-    border-top: 8px solid teal;
+    border-top: 8px solid white;
     height: 50px;
   }
   
@@ -163,9 +162,9 @@ body {
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
-    color: #ffffff;
+    color: gray;
     text-align: center;
-    background: teal;
+    background: white;
     border-bottom: 0;
   }
   
@@ -211,8 +210,8 @@ body {
   input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
-    color: #ffffff;
+    color: gray;
     cursor: pointer;
-    background: teal;
+    background: white;
     border: 0 none;
   }
