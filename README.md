@@ -1,1 +1,6 @@
-# homework1
+# Portfolio Page
+
+Includes
+* About Me 
+* Portfolio
+* Contact Information
